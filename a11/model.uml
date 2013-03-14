@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_r0qnwIy5EeKHmKmmAHzRxw">
+  <packagedElement xmi:type="uml:Class" xmi:id="_2STEQIy5EeKHmKmmAHzRxw" name="Class1">
+    <ownedOperation xmi:id="_4QwVAIy5EeKHmKmmAHzRxw" name="Operation_0"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2xY0AIy5EeKHmKmmAHzRxw" name="Class2">
+    <ownedAttribute xmi:id="_3vR_oIy5EeKHmKmmAHzRxw" name="property1">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3vk6kYy5EeKHmKmmAHzRxw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3vk6kIy5EeKHmKmmAHzRxw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3PJHAIy5EeKHmKmmAHzRxw" name="class2sToClass1s" memberEnd="_3PJHAYy5EeKHmKmmAHzRxw _3PJHBIy5EeKHmKmmAHzRxw" navigableOwnedEnd="_3PJHAYy5EeKHmKmmAHzRxw _3PJHBIy5EeKHmKmmAHzRxw">
+    <ownedEnd xmi:id="_3PJHAYy5EeKHmKmmAHzRxw" name="class2s" type="_2xY0AIy5EeKHmKmmAHzRxw" association="_3PJHAIy5EeKHmKmmAHzRxw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3PJHA4y5EeKHmKmmAHzRxw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3PJHAoy5EeKHmKmmAHzRxw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_3PJHBIy5EeKHmKmmAHzRxw" name="class1s" type="_2STEQIy5EeKHmKmmAHzRxw" association="_3PJHAIy5EeKHmKmmAHzRxw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3PJHBoy5EeKHmKmmAHzRxw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3PJHBYy5EeKHmKmmAHzRxw"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
